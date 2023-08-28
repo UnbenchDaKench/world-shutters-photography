@@ -16,7 +16,7 @@ const style = {
   position: "absolute",
   top: "50%",
   left: {
-    xs:"28%",
+    xs:"20%",
     md: '35%'
   },
   transform: "translate(0%, -50%)",
