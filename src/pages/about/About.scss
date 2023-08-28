@@ -1,0 +1,58 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    
+
+    .bio-pic {
+        width: 60vw;
+        height: auto;
+        border-radius: 10%;
+        margin-left: 10vw;
+        box-shadow: -6px -6px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .gear-pic {
+        width: 60vw;
+        height: auto;
+        border-radius: 10%;
+        margin-left: 10vw;
+        box-shadow: -6px -6px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 5%;
+    }
+
+    @media only screen and (max-width: 900px) and (min-width: 600px) {
+        .bio-pic {
+            width: 50vw;
+            margin-left: 5vw;
+        }
+
+        .gear-pic {
+            width: 50vw;
+            margin-left: 5vw;
+        }
+    }
+
+    @media only screen and (min-width: 900px) {
+        .bio-pic {
+            width: 40vw;
+            margin-left: 5vw;
+        }
+
+        .gear-pic {
+            width: 40vw;
+            margin-left: 25vw;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) {
+        .bio-pic {
+            width: 35vw;
+            margin-left: 5vw;
+        }
+
+        .gear-pic {
+            width: 35vw;
+            margin-left: 25vw;
+        }
+    }
+}
