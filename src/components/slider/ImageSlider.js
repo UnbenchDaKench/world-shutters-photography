@@ -19,7 +19,7 @@ const style = {
     xs:"28%",
     md: '35%'
   },
-  transform: "translate(-20%, -50%)",
+  transform: "translate(0%, -50%)",
   width: {
     xs: '60vw',
     md: '45vw',
@@ -51,7 +51,7 @@ function ImageSlider({ handleImageClick, isClicked, sliderImages, index }) {
   };
 
   return (
-    <div>
+    <div >
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
