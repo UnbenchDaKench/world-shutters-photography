@@ -12,10 +12,10 @@ function Home() {
       setCurrentPhotoIndex(Math.floor(Math.random() * AllPhotos.length));
       //setCurrentPhotoIndex((prevIndex) => (prevIndex < AllPhotos.length-1 ? prevIndex + 1 : 0))
     }, 5000);
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = "auto";
     return () => {
       clearInterval(interval);
-      document.body.style.overflow = "scroll";
+      document.body.style.overflow = "auto";
     };
   }, []);
 
