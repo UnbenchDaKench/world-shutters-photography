@@ -81,7 +81,7 @@ function Contact() {
           <TextField
             label="Lastname"
             value={lastname}
-            onChange={(e) => setFirstname(e.target.value)}
+            onChange={(e) => setLastname(e.target.value)}
             fullWidth
             margin="normal"
             sx={{
